@@ -9,5 +9,8 @@
     "@vuepress/plugin-blog": "^1.0.0-alpha.47",
     "vue-cli-plugin-vuepress": "^0.1.1",
     "vuepress": "^1.0.0-alpha.47"
+  },
+  "dependencies": {
+    "@mauromadeit/vuepress-theme-vuetify": "^0.2.0"
   }
 }
