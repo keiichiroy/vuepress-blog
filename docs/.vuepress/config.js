@@ -6,15 +6,7 @@ module.exports = {
   serviceWorker: false,
   theme: '@vuepress/theme-default',
   themeConfig: {
-    sidebar: [
-      '/',
-      '/page1',
-      '/page2',
-      [
-        '/page3',
-        'Custom link page'
-      ]
-    ],
+    sidebar: false,
     nav: [
       { text: 'Home', link: '/' },
       { text: 'About', link: '/about/' },
