@@ -1,19 +1,17 @@
 module.exports = {
-  plugins: ['@vuepress/blog'],
-  title: "My Vuepress Docs",
-  theme: "@vuepress/theme-default",
+  dest: 'vuepress',
+  serviceWorker: true,
   themeConfig: {
-    nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Guide', link: '/guide/' },
-      { text: 'External', link: 'https://google.com' },
-    ],
-    sidebar: {
-      '/': [
-        '',
-        ''
-      ],
-      '/about/': []
-    }
-  }
+    sidebar: [
+      '/',
+      '/page1',
+      '/page2',
+      [
+        '/page3',
+        'Custom link page'
+      ]
+    ]
+  },
+  title: undefined,
+  base: '/'
 }
