@@ -6,8 +6,9 @@ tag: vuepress
 lang: en-US
 ---
 
-what I've write first to create 
+Useful articles
 ===
+for building blog using Vuepress
 
 References
 ---
