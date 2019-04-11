@@ -1,6 +1,6 @@
 module.exports = {
   dest: 'vuepress',
-  serviceWorker: true,
+  serviceWorker: false,
   themeConfig: {
     sidebar: [
       '/',
