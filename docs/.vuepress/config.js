@@ -1,4 +1,5 @@
 module.exports = {
+  plugins: ['@vuepress/blog'],
   title: "My Vuepress Docs",
   theme: "@vuepress/theme-default",
   themeConfig: {
