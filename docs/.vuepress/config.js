@@ -3,7 +3,6 @@ module.exports = {
     '@vuepress/blog',
     '@vuepress/last-updated',
   ],
-  dest: 'vuepress',
   serviceWorker: false,
   themeConfig: {
     sidebar: [
@@ -14,6 +13,12 @@ module.exports = {
         '/page3',
         'Custom link page'
       ]
+    ],
+    nav: [
+      { text: 'Home', link: '/' },
+      { text: 'About', link: '/about/' },
+      { text: 'Category', link: '/category/' },
+      { text: 'Tag', link: '/tag/' }
     ]
   },
   title: undefined,
