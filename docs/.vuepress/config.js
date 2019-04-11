@@ -4,6 +4,7 @@ module.exports = {
     '@vuepress/last-updated',
   ],
   serviceWorker: false,
+  theme: '@vuepress/theme-default',
   themeConfig: {
     sidebar: [
       '/',
