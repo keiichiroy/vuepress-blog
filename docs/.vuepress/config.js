@@ -1,4 +1,8 @@
 module.exports = {
+  plugins: [
+    '@vuepress/blog',
+    '@vuepress/last-updated',
+  ],
   dest: 'vuepress',
   serviceWorker: false,
   themeConfig: {
